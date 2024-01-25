@@ -6,6 +6,11 @@
 # Create a "shared" shopping list with a friend
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
+my_list = ["milk", "eggs", "bacon","cookies"]
+friend_list = ["beer", "cookies", "apples"]
+shared_list = my_list + friend_list
+puts shared_list.sort.uniq
+
 # your friend wants beer, cookies, and apples.
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
